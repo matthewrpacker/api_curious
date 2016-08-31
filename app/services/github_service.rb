@@ -3,6 +3,7 @@ class GithubService
 
   def initialize(current_user)
     @connection = Faraday.new "https://api.github.com/"
+    @connection.adapter  Faraday.default_adapter
     @connection.params["client_id"] = ENV['GITHUB_KEY']
     @connection.params["client_secret"] = ENV['GITHUB_SECRET']
     @current_user = current_user
@@ -13,8 +14,17 @@ class GithubService
     JSON.parse(new_response.body)
   end
 
+  def starred_info
+    starred = @connection.get("/users/#{current_user.nickname}/starred")
+    JSON.parse(starred.body)
+  end
+
   def login_name
     user_info['login']
+  end
+
+  def name
+    user_info['name']
   end
 
   def avatar_url
@@ -43,6 +53,14 @@ class GithubService
 
   def following
     user_info['following']
+  end
+
+  def starred_repos_count
+    starred_info.count
+  end
+
+  def bio
+    user_info['bio']
   end
 end
 
