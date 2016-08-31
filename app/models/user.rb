@@ -1,9 +1,4 @@
 class User < ApplicationRecord
-  # attr_accessor :id, :username
-  #
-  # def initialize(id)
-  #   @id = id
-  # end
   def self.from_omniauth(auth_info)
     where(uid: auth_info[:uid]).first_or_create do |new_user|
       new_user.provider = auth_info.provider
