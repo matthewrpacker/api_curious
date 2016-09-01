@@ -1,3 +1,5 @@
+require 'date'
+
 class GithubService
   attr_reader :current_user
 
@@ -62,8 +64,16 @@ class GithubService
   def bio
     user_info['bio']
   end
-end
 
+  def member_since
+    date = DateTime.parse(user_info['created_at'])
+    formatted_date = date.strftime('%b %d, %Y')
+  end
+
+  def location
+    user_info['location']
+  end
+end
 
 # {"login"=>"matthewrpacker",
 #

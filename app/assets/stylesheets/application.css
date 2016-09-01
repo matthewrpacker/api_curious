@@ -31,3 +31,23 @@
   font-size: 14px;
   color: #767676;
 }
+
+.header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-margins{
+  margin-left: 128px
+}
+
+.hide-bullet{
+  overflow: hidden;
+}
+
+.octicon{
+  vertical-align: text-bottom;
+  fill: #767676;
+}
