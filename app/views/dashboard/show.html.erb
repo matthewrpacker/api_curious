@@ -27,7 +27,7 @@
       <%= "Starred: #{@github.starred_count}" %>
       <%= "Following: #{@user_info.following}" %>
     </div>
-    <main class="col-md-4 col-md-offset-1">
+    <main class="col-md-3 col-md-offset-1">
       <h3>Repositories</h3>
       <ul>
         <% @github.repos.each do |repo| %>
@@ -37,6 +37,21 @@
           <p><%= repo.description %></p>
           <% end %>
           <p><%= "Updated: #{repo.updated_at}" %></p>
+        </li>
+        <% end %>
+      </ul>
+    </main>
+    <main class="col-md-3 col-md-offset-1">
+      <h3>Public Activity</h3>
+      <ul>
+        <% @github.activity.each do |act| %>
+        <li>
+          <h4> <%= act.type %></h4>
+          <p> <%= act.repo_name %> </p>
+          <% if act.commits %>
+          <p> <%= "Commits: #{act.commits}" %> </p>
+          <% end %>
+          <p> <%= act.created_at %> </p>
         </li>
         <% end %>
       </ul>

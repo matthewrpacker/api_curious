@@ -33,4 +33,15 @@ class GithubService
       Repo.new(hash)
     end
   end
+
+  def activity_info
+    response = @connection.get("/users/#{current_user.nickname}/events")
+    @activity_info_json = JSON.parse(response.body)
+  end
+
+  def activity
+    @activity ||= @activity_info_json.map do |hash|
+      Activity.new(hash)
+    end
+  end
 end
