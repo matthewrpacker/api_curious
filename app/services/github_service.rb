@@ -1,5 +1,3 @@
-require 'date'
-
 class GithubService
   attr_reader :current_user
 
