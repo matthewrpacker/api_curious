@@ -5,7 +5,7 @@
     </svg>
     <%= link_to "Logout", logout_path, method: :delete %>
   </div>
-</div><br />
+</div><br>
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-2 col-md-offset-1">
@@ -16,27 +16,30 @@
       </h1>
       <div>
         <div class="bio"><%= @github.bio %></div>
-      </div><br />
+      </div><br>
       <div class="hide-bullet octicon">
         <svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
-        <%= @github.location %><br />
+        <%= @github.location %><br>
         <svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
         <%= "Joined on #{@github.member_since}" %>
-      </div><br />
+      </div><br>
       <%= "Followers: #{@github.followers}" %>
       <%= "Starred: #{@github.starred_repos_count}" %>
       <%= "Following: #{@github.following}" %>
     </div>
-    <div class="col-md-4 col-md-offset-1">
-      <%= link_to "Repositories", @github.repos_url %>
-    </div>
+    <main class="col-md-4 col-md-offset-1">
+      <h3>Repositories</h3>
+      <ul>
+        <% @github.repos.each do |repo| %>
+        <li>
+          <h4><%= link_to repo.name, repo.html_url %></h4>
+          <% if repo.description %>
+          <p><%= repo.description %></p>
+          <% end %>
+          <p><%= "Updated: #{repo.updated_at}" %></p>
+        </li>
+        <% end %>
+      </ul>
+    </main>
   </div>
 </div>
-
-
-
-
-<!-- {
-  "message": "API rate limit exceeded for 73.153.225.27. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
-  "documentation_url": "https://developer.github.com/v3/#rate-limiting"
-} -->
