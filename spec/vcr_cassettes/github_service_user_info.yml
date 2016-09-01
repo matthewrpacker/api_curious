@@ -1,0 +1,1245 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4969'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - cee4c0729c8e9147e7abcb45b9d69689
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAACC5:57C74A2D
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:45 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4968'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a6882e5cd2513376cb9481dbcd83f3a2
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAACDB:57C74A2D
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:45 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4967'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 02ea60dfed58b2a09106fafd6ca0c108
+      X-Github-Request-Id:
+      - 3F910F63:54AC:11A6E298:57C74A2D
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:45 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4966'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a30e6f9aa7cf5731b87dfb3b9992202d
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAAD20:57C74A2D
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:45 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4965'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 8166eb1845e56d99ba68a6b1065016c1
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAAD47:57C74A2E
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4964'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 52437fedc85beec8da3449496900fb9a
+      X-Github-Request-Id:
+      - 3F910F63:54AC:11A6E307:57C74A2E
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4963'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - dc1ce2bfb41810a06c705e83b388572d
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAAD7D:57C74A2E
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4962'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 139317cebd6caf9cd03889139437f00b
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAADA2:57C74A2E
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4961'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 52189b7290fad804d77890ef34a1eeae
+      X-Github-Request-Id:
+      - 3F910F63:54AC:11A6E39B:57C74A2F
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4960'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 02ea60dfed58b2a09106fafd6ca0c108
+      X-Github-Request-Id:
+      - 3F910F63:54AC:11A6E3CD:57C74A2F
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4959'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a7f8a126c9ed3f1c4715a34c0ddc7290
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAAE20:57C74A2F
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4958'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - d594a23ec74671eba905bf91ef329026
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAAE42:57C74A2F
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:48 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4957'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - bd82876e9bf04990f289ba22f246ee9b
+      X-Github-Request-Id:
+      - 3F910F63:54A9:B27DE19:57C74A30
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:48 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4956'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a6882e5cd2513376cb9481dbcd83f3a2
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAAE96:57C74A30
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:48 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4955'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 1e9204dbc0447a6f39c3b3c44d87b3f8
+      X-Github-Request-Id:
+      - 3F910F63:54AB:FFAAEAF:57C74A30
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:48 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4954'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 9000e9eef7bb1e89f22030c676da140e
+      X-Github-Request-Id:
+      - 3F910F63:54AC:11A6E4F7:57C74A30
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:49 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4953'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 474556b853193c38f1b14328ce2d1b7d
+      X-Github-Request-Id:
+      - 3F910F63:54A9:B27DE67:57C74A31
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:49 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/matthewrpacker?client_id=1e79ffc2e28f00d7e34a&client_secret=a9f6ad64adb7aa24363ab9f1d885ecc2afcb150e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 31 Aug 2016 21:20:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4952'
+      X-Ratelimit-Reset:
+      - '1472679870'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"44b941082bb0ffeeeb0598a4f76332f8"
+      Last-Modified:
+      - Tue, 30 Aug 2016 13:53:35 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 02ea60dfed58b2a09106fafd6ca0c108
+      X-Github-Request-Id:
+      - 3F910F63:54AC:11A6E541:57C74A31
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"matthewrpacker","id":14930925,"avatar_url":"https://avatars.githubusercontent.com/u/14930925?v=3","gravatar_id":"","url":"https://api.github.com/users/matthewrpacker","html_url":"https://github.com/matthewrpacker","followers_url":"https://api.github.com/users/matthewrpacker/followers","following_url":"https://api.github.com/users/matthewrpacker/following{/other_user}","gists_url":"https://api.github.com/users/matthewrpacker/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewrpacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewrpacker/subscriptions","organizations_url":"https://api.github.com/users/matthewrpacker/orgs","repos_url":"https://api.github.com/users/matthewrpacker/repos","events_url":"https://api.github.com/users/matthewrpacker/events{/privacy}","received_events_url":"https://api.github.com/users/matthewrpacker/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":null,"public_repos":25,"public_gists":3,"followers":2,"following":0,"created_at":"2015-10-01T19:42:46Z","updated_at":"2016-08-30T13:53:35Z"}'
+    http_version: 
+  recorded_at: Wed, 31 Aug 2016 21:20:49 GMT
+recorded_with: VCR 3.0.3
